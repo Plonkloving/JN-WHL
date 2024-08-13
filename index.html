@@ -1,0 +1,46 @@
+<!--
+ * @Description: 
+ * @Author: your name
+ * @version: 
+ * @Date: 2023-12-26 14:15:11
+ * @LastEditors: your name
+ * @LastEditTime: 2024-01-11 14:08:31
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/cesium/Widgets/widgets.css">
+    <script src="/cesium/Cesium.js"></script>
+
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.bootcdn.net/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+		<script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+    <!-- <script src="./src/CesiumHeatmap-master/CesiumHeatmap.js"></script> -->
+    <!-- 复制阿里巴巴图标库链接 -->
+		<link rel="stylesheet" href="https://at.alicdn.com/t/c/font_4320725_pvuzb38ip2d.css">
+    <script>
+      const clientWidth = document.documentElement.clientWidth
+      const clientHeight = document.documentElement.clientHeight
+      window.pageWidth = clientWidth / clientHeight > 16 / 9 ? clientHeight * (16 / 9) : clientWidth
+      const pageHeight = pageWidth / (16 / 9)
+      const string = `<style>html{
+        font-size: ${pageWidth / 100}px
+      }</style>`
+      document.write(string)
+    </script>
+    <title>Vite + Vue</title>
+    <script type="module" crossorigin src="/assets/index-a9fff565.js"></script>
+    <link rel="stylesheet" href="/assets/index-0d0ec53b.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      // root.style.width = pageWidth + 'px'
+      app.style.height = pageHeight + 'px'
+      app.style.marginTop = (clientHeight - pageHeight) / 2 + 'px'
+    </script>
+    
+  </body>
+</html>
